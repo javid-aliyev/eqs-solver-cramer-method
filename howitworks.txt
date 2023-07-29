@@ -1,0 +1,20 @@
+system of equations
+a1x + b1y = s1
+a2x + b2y = s2
+
+system_determinant = | a1 b1 | = a1b2 - a2b1
+                     | a2 b2 |
+
+if system_determinant == 0 then infinite solutions
+else one solution
+
+x_det = | s1 b1 | = s1b2 - s2b1
+        | s2 b2 |
+
+y_det = | a1 s1 | = a1s2 - a2s1
+        | a2 s2 |
+
+x = x_det / sys_det
+y = y_det / sys_det
+
+solution: (x;y)
